@@ -1,4 +1,4 @@
-# Building my own version of the .each method
+# Building my own method of the each method
 def my_each(array)
   if block_given?
     i = 0
