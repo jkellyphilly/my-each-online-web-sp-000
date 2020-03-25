@@ -6,7 +6,8 @@ def my_each(array)
       yield array[i]
       i += 1
     end
+    array
   else
-    return nil
+    nil
   end
 end
